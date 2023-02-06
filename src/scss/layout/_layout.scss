@@ -1,0 +1,60 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 4.5rem 0 2rem;
+
+  &__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-2);
+    text-align: center;
+  }
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 1170px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden; // For animation
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+// Firefox
+* {
+  scrollbar-width: 8px;
+  scrollbar-color: #020202 #d6d6d6;
+  // Chrome, Edge, and Safari
+  &::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fff;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(#000, 20%);
+    border-radius: 0;
+    background: #eee;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border: 0px none #fff;
+    background-color: lighten(#020202, 10%);
+    transition: all 280ms ease-in-out;
+    &:hover {
+      background-color: #020202;
+    }
+  }
+}

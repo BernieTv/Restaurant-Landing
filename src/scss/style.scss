@@ -1,0 +1,20 @@
+@use 'sass:math';
+
+@import 'libs/swiper';
+
+@import 'config/fonts';
+@import 'config/variables';
+@import 'config/reset';
+@import 'config/functions';
+@import 'config/mixins';
+
+@import 'base/base';
+@import 'layout/layout';
+@import 'theme/theme';
+
+@import 'components/header';
+@import 'components/home';
+@import 'components/formsModal';
+@import 'components/schedule';
+@import 'components/testimonials';
+@import 'components/breakpoints';
