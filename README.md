@@ -1,7 +1,5 @@
 # Тестовое Задание
 
-Сборку делал по примеру автора [youtube](https://www.youtube.com/watch?v=jU88mLuLWlk) канала: [Фрилансер по жизни](https://www.youtube.com/c/FreelancerLifeStyle)
-
 ## Для работы используйте такие комманды
 
 - Для установки всех зависимостей: `$ npm install`;
@@ -63,5 +61,3 @@ import * as flsFunctions from './modules'; // './modules/index.js'
 ```json
 "homepage": "https://{UserName}.github.io/{NameRepo}",
 ```
-
-По любым вопросам касающихся сборки пишите мне в [Telegram](https://t.me/StarkElessar).
